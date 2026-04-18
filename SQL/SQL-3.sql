@@ -9,7 +9,7 @@ insert into employee1(eid,emp_name,emp_email,salary) values(1,"abc",'abc@gmail.c
 															(2,"def",'def@gmail.com',28179),
 															(3,"ghi",'ghi@gmail.com',27372)
 delete from employee1 where eid=2
- #to fetch all records from the table
+	#to fetch all records from the table
  select * from customer
 	#fetch customer name and customer number
 select CustomerName,CustomerNo from customer
